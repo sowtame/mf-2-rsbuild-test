@@ -8,15 +8,17 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
+    "@loadable/component": "^5.16.4",
+    "@module-federation/utilities": "^3.1.54",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@module-federation/rsbuild-plugin": "^0.13.1",
     "@rsbuild/core": "^1.2.15",
     "@rsbuild/plugin-react": "^1.1.1",
     "@types/react": "^18.3.11",
     "@types/react-dom": "~18.3.1",
-    "typescript": "^5.7.2",
-    "@module-federation/rsbuild-plugin":"^0.13.1"
+    "typescript": "^5.7.2"
   }
 }
