@@ -6,7 +6,7 @@ export default createModuleFederationConfig({
     '.': './src/components/ProviderComponent.tsx',
   },
   filename: 'remoteEntry.js',
-  getPublicPath: `function() {return "https:" + "/resource/app/"}`,
+  // getPublicPath: `function() {return "https:" + "/resource/app/"}`,
   dts: false,
   manifest: false,
   shared: {
